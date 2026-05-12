@@ -1,0 +1,8 @@
+{
+  "name": "MacroSnap - AI Nutrition Tracker",
+  "description": "Auto-track your macros and calories by simply snapping a photo of your meal. Includes manual input, daily calorie budgeting, and meal reminders.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

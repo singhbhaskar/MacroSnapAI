@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-brand-primary: #10b981; /* Emerald 500 */
+  --color-brand-secondary: #09090b; /* Zinc 950 */
+  --color-brand-zinc-900: #18181b;
+  --color-brand-zinc-800: #27272a;
+  --color-brand-zinc-700: #3f3f46;
+  
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-3xl: 2.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-secondary text-zinc-100 antialiased;
+  }
+}
+
+.bento-card {
+  @apply bg-brand-zinc-900 border border-brand-zinc-800 rounded-3xl p-6 transition-all;
+}
+
+.glass {
+  @apply bg-zinc-900/70 backdrop-blur-md border border-zinc-800;
+}
+
